@@ -1,0 +1,21 @@
+﻿{
+    "RecentAverageRating":  3.77,
+    "Timestamp":  "2026-10-12 21:13:31",
+    "AppId":  "com.moveinsync.ets",
+    "NegativeSharePercent":  30,
+    "LatestVersion":  "12.19.0",
+    "FrictionSignals":  {
+                            "GpsTrackingIssues":  5,
+                            "CrashUpdateIssues":  8,
+                            "ForcedRatingBlocks":  3,
+                            "OtpModalFrustrations":  4
+                        },
+    "RatingBreakdown":  {
+                            "Star3":  null,
+                            "Star1":  28,
+                            "Star5":  66,
+                            "Star2":  2,
+                            "Star4":  3
+                        },
+    "SampleSize":  100
+}
