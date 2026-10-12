@@ -1,5 +1,5 @@
 # MoveInSync FDE Case Study — Form Submission Answers
-Copy and paste these prepared responses into your submission form.
+Copy and paste these prepared responses directly into your MoveInSync submission form.
 
 ---
 
@@ -9,7 +9,7 @@ Copy and paste these prepared responses into your submission form.
 ---
 
 ### Field 2: Name
-*(Enter your full name)*
+**Jayakrishnan Sharangan**
 
 ---
 
@@ -25,17 +25,16 @@ Copy and paste these prepared responses into your submission form.
 
 ### Field 5: Submission Link(s) (GitHub / Project / Solution Link)
 ```text
-https://github.com/<YOUR_GITHUB_USERNAME>/moveinsync-fde-case-study
+https://github.com/JayakrishnanSharangan/moveinsync-fde-case-study
 ```
-*(Replace `<YOUR_GITHUB_USERNAME>` with your GitHub username after pushing the repository)*
 
 ---
 
 ### Field 6: Any related PPT Link / Demo Video Link / Other Demo Link(s) / Project Link
 ```text
-https://<YOUR_GITHUB_USERNAME>.github.io/moveinsync-fde-case-study/MoveInSync_Rating_Intelligence_Dashboard.html
+https://htmlpreview.github.io/?https://github.com/JayakrishnanSharangan/moveinsync-fde-case-study/blob/main/MoveInSync_Rating_Intelligence_Dashboard.html
 ```
-*(Alternatively, you can upload `MoveInSync_Rating_Intelligence_Dashboard.html` and `MoveInSync_FDE_PlayStore_Rating_Strategy.md` to your Google Drive, set sharing to "Anyone with the link can view", and paste that Google Drive link here)*
+*(Live Interactive Executive Dashboard with Chart.js analytics, KPI cards, Jira-ready roadmap, and filterable review explorer)*
 
 ---
 
@@ -52,8 +51,9 @@ To address this, I formulated a 3-horizon engineering roadmap (P0 Immediate Week
 
 ### Field 8: Any other relevant link you want to submit
 ```text
-https://github.com/<YOUR_GITHUB_USERNAME>/moveinsync-fde-case-study/blob/main/MoveInSync_FDE_PlayStore_Rating_Strategy.md
+https://github.com/JayakrishnanSharangan/moveinsync-fde-case-study/blob/main/MoveInSync_FDE_PlayStore_Rating_Strategy.md
 ```
+*(Direct link to the complete Strategic Recommendation Report)*
 
 ---
 
