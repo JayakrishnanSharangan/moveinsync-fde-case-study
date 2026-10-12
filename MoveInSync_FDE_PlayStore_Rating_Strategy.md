@@ -5,9 +5,9 @@
 **Platform:** Google Play Store (Android)  
 **Author:** Forward Deployed Engineer Candidate  
 **Date:** October 2026  
-**Interactive Dashboard Deliverable:** [`MoveInSync_Rating_Intelligence_Dashboard.html`](file:///c:/Users/J/Downloads/mvsnz/MoveInSync_Rating_Intelligence_Dashboard.html)  
-**Reusable Monitoring CLI Deliverable:** [`moveinsync_rating_sentinel.ps1`](file:///c:/Users/J/Downloads/mvsnz/moveinsync_rating_sentinel.ps1)  
-**Primary Dataset:** [`moveinsync_reviews_comprehensive.json`](file:///c:/Users/J/Downloads/mvsnz/moveinsync_reviews_comprehensive.json) (306 verified public reviews)
+**Interactive Dashboard Deliverable:** [`MoveInSync_Rating_Intelligence_Dashboard.html`](MoveInSync_Rating_Intelligence_Dashboard.html)  
+**Reusable Monitoring CLI Deliverable:** [`moveinsync_rating_sentinel.ps1`](moveinsync_rating_sentinel.ps1)  
+**Primary Dataset:** [`data/reviews.json`](data/reviews.json) (306 verified public reviews)
 
 ---
 
@@ -248,28 +248,26 @@ ROADMAP TIMELINE & IMPACT MATRIX:
 
 ---
 
-## 5. Summary of Deliverables in Workspace
+## 5. Summary of Deliverables in Repository
 
-All project assets, tools, scripts, and datasets have been created and validated directly in the workspace folder [`c:\Users\J\Downloads\mvsnz`](file:///c:/Users/J/Downloads/mvsnz):
-
-1. **[`MoveInSync_Rating_Intelligence_Dashboard.html`](file:///c:/Users/J/Downloads/mvsnz/MoveInSync_Rating_Intelligence_Dashboard.html)**  
-   * **Executive Interactive HTML Dashboard** (211 KB, zero external runtime dependencies).
+1. **[`MoveInSync_Rating_Intelligence_Dashboard.html`](MoveInSync_Rating_Intelligence_Dashboard.html)**  
+   * **Executive Interactive HTML Dashboard** (Standalone single-file, zero external runtime dependencies).
    * Features interactive KPI cards, Chart.js breakdown charts (Category & Rating distributions), prioritized Jira-ready engineering task cards, and a live review explorer with instant filtering by rating (1★/2★) and keywords (OTP, Map, Crashes, Routing).
    * Can be opened directly in any web browser by double-clicking.
 
-2. **[`moveinsync_rating_sentinel.ps1`](file:///c:/Users/J/Downloads/mvsnz/moveinsync_rating_sentinel.ps1)**  
+2. **[`moveinsync_rating_sentinel.ps1`](moveinsync_rating_sentinel.ps1)**  
    * **Reusable FDE Automation CLI Tool**.
    * Solves the recurring question: *"How are our Play Store ratings?"*
    * Executes in under 10 seconds, fetches live public reviews for `com.moveinsync.ets`, calculates recent average ratings, negative sentiment share, and flags friction signal counts (forced rating popups, OTP modal issues, GPS tracking complaints, update crashes).
-   * Exports timestamped health snapshots to `moveinsync_latest_health.json`.
+   * Exports timestamped health snapshots to `data/health_snapshot.json`.
 
-3. **[`moveinsync_reviews_comprehensive.json`](file:///c:/Users/J/Downloads/mvsnz/moveinsync_reviews_comprehensive.json) & [`.csv`](file:///c:/Users/J/Downloads/mvsnz/moveinsync_reviews_comprehensive.csv)**  
+3. **[`data/reviews.csv`](data/reviews.csv) & [`data/reviews.json`](data/reviews.json)**  
    * Clean, structured dataset containing **306 verified public MoveInSync user reviews** with dates, usernames, ratings, full text content, app versions, thumbs-up counts, and developer responses.
 
-4. **[`reviews_classified.json`](file:///c:/Users/J/Downloads/mvsnz/reviews_classified.json)**  
+4. **[`data/reviews_classified.json`](data/reviews_classified.json)**  
    * The enriched review dataset with automated semantic category tagging across the 7 employee commute lifecycle stages.
 
-5. **[`fetch_comprehensive_reviews.ps1`](file:///c:/Users/J/Downloads/mvsnz/fetch_comprehensive_reviews.ps1) & [`analyze_reviews.ps1`](file:///c:/Users/J/Downloads/mvsnz/analyze_reviews.ps1)**  
+5. **[`scripts/fetch_reviews.ps1`](scripts/fetch_reviews.ps1) & [`scripts/analyze_reviews.ps1`](scripts/analyze_reviews.ps1)**  
    * Reproducible automation scripts for data extraction and taxonomy analysis.
 
 ---

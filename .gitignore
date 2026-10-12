@@ -7,5 +7,6 @@ Desktop.ini
 *.log
 scratch/
 
-# Local personal submission file
+# Local personal files and original prompt PDFs
 SUBMISSION_FORM_ANSWERS.md
+*.pdf
