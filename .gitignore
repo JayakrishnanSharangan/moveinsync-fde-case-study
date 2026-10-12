@@ -6,3 +6,6 @@ Desktop.ini
 # Temporary logs
 *.log
 scratch/
+
+# Local personal submission file
+SUBMISSION_FORM_ANSWERS.md
